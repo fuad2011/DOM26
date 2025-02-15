@@ -1,8 +1,8 @@
 console.log(screen.availHeight)
 console.log(screen.availWidth)
-function openWin() {
+function func1() {
 myWindow = window.open("", "", "width=200, height=100");
 }  
-function resizeWin() {
+function func2() {
 myWindow.resizeTo(300, 300);
 }
